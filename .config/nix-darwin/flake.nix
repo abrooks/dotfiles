@@ -14,8 +14,9 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [
-          pkgs.vim
           pkgs.clojure
+          pkgs.neovim
+          pkgs.vim
         ];
 
       # Auto upgrade nix package and the daemon service.
